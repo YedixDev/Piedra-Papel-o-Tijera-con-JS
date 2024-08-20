@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jueguito JS</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="title">Piedra, Papel o Tijera</h1>
+      <span>con HTML, CSS Y JavaScript</span>
+    </div>
+
+    <div class="btn">
+      <p>Elije tu arma para el proximo turno:</p>
+      <div class="btn-play">
+        <input type="button" value="Piedra" id="piedra" />
+        <input type="button" value="Papel" id="papel" />
+        <input type="button" value="Tijera" id="tijera" />
+      </div>
+
+      <div id="resultado"></div>
+
+      <div class="btn-play">
+        <input
+          type="button"
+          value="Volver a Jugar"
+          id="repetir"
+          onclick="repetir()"
+        />
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Sobre el Juego</h3>
+          <p>
+            ¡Disfruta de este divertido mini juego de Piedra, Papel o Tijera!<br /><br />
+            Prueba tu suerte y desafía a la computadora.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>Contáctame</h3>
+          <p>Email: yedydev@gmail.com</p>
+          <p>Teléfono: +57 301 731 7519</p>
+        </div>
+        <div class="footer-section">
+          <h3>Sígueme</h3>
+          <div class="social-links">
+            <a href="https://github.com/YedixDev" target="_blank">
+              <i class="fab fa-github"></i> Github
+            </a>
+            <a href="https://x.com/Yedixonjrf" target="_blank">
+              <i class="fa-brands fa-twitter" style="color: #1da1f2"></i>
+              Twitter
+            </a>
+            <a href="https://www.instagram.com/yedixon.j/" target="_blank">
+              <i class="fab fa-instagram" style="color: #e1306c"></i> Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Todos los derechos reservados 🔥</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
