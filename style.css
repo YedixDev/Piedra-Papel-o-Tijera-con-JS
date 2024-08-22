@@ -18,13 +18,12 @@ body{
 
 .title{
    font-size: 30px;
-   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.title:hover{
-   transform: scale(1.1); 
-   color: #4a5a4a;
+.header span{
+   font-size: 22px;
 }
+
 
 .btn{
    background-color: #78A083; 
@@ -96,22 +95,19 @@ footer {
             color: white;
             padding: 10px 0;
             text-align: center;
-            margin-top: 7%;
-            box-shadow: 0 0 50px 0 #E2E2B6;
+            margin-top: 8%;
+            box-shadow: 0 0 50px 0 #d6d6b944;
 
         }
 
         .footer-container {
-            max-width: 1000px;
-            margin: auto;
             display: flex;
-            justify-content: space-around;
-            flex-wrap:unset;
+            justify-content:space-around;
+
         }
 
         .footer-section {
-            margin: 10px 0;
-            min-width: 380px;
+            max-width: 400px;
         }
 
         .footer-section h3 {
@@ -125,18 +121,11 @@ footer {
             color: #ddd;
             text-decoration: none;
             margin: 5px 0;
-            display: block;
             font-size: 18px;
         }
 
         .footer-section a:hover {
             color: #78A083;
-        }
-
-        .footer-section img {
-            width: 20px;
-            margin-right: 10px;
-            vertical-align: middle;
         }
 
         .social-links {

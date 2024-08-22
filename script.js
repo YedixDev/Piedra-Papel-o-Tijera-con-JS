@@ -23,7 +23,7 @@ function jugar(eleccionUsuario) {
     (eleccionUsuario === "tijera" && eleccionPc === "papel") ||
     (eleccionUsuario === "papel" && eleccionPc === "piedra")
   ) {
-    resultado = `¡Ganastes! Elegiste ${eleccionUsuario} y la computadora eligió ${eleccionPc}.`;
+    resultado = `¡Ganaste! Elegiste ${eleccionUsuario} y la computadora eligió ${eleccionPc}.`;
   } else {
     resultado = `¡Perdiste! Elegiste ${eleccionUsuario} y la computadora eligió ${eleccionPc}.`;
   }
